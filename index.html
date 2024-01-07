@@ -35,18 +35,6 @@
       text-align: center;
     }
   </style>
-  <script defer>
-    let src = `./This User Was ${Math.round(Math.random()) == 0 ? "" : "Not "}Involved.png`
-
-    let img = document.createElement("img")
-    img.setAttribute("src", src)
-    img.setAttribute("height", "80")
-
-    let div = document.createElement("div")
-    div.appendChild(img)
-
-    document.querySelector("body").appendChild(div)
-  </script>
 </head>
 
 <body>
@@ -91,7 +79,19 @@
     and ever and cherish them until they're gone from my head and i can't remember anything but a fragment of
     them. i constantly crave the feeling of monolithic structures around me, piercing into my perception. it's
     the most real thing to me. i am nothing without them. but with them i am god
-</div>
+  </div>
+  <script defer>
+    let src = `./This User Was ${Math.round(Math.random()) == 0 ? "" : "Not "}Involved.png`
+
+    let img = document.createElement("img")
+    img.setAttribute("src", src)
+    img.setAttribute("height", "80")
+
+    let div = document.createElement("div")
+    div.appendChild(img)
+
+    document.querySelector("body").appendChild(div)
+  </script>
 </body>
 <!-- tail -->
 
